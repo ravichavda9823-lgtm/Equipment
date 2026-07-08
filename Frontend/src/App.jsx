@@ -5,7 +5,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import Header from './common/Header'
-import Footer from './common/footer';
+import Footer from './common/Footer';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -42,13 +42,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/equipmenthistory" element={<EquipmentBookingHistory/>} />
           <Route path="/feedback" element={<Feedback/>} />
-          <Route path="/editprofile" element={<EditProfile />} />
-
-
-
-
-
-
+          <Route path="/editprofile" element={<EditProfile />} /> 
         </Routes>
         <Footer />
       </BrowserRouter>
